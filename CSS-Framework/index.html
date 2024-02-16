@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Example</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Footer section -->
+    <footer class="bg-[#659f8f] dark:bg-[#313131]">
+        <div class="container">
+            <footer class="bg-[#659f8f] dark:bg-[#313131]">
+                 <!-- Container for footer content -->
+                <div class="container px-6 py-12 mx-auto">
+                    <div class="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
+                        <!-- Subscription form -->
+                        <div class="sm:col-span-2">
+                            <h1 class="max-w-l font-semibold" >Subscribe to our newsletter for updates.</h1>
+                            <div class="mt-4 flex">
+                                <!-- Email input field -->
+                                <input id="email" type="text" class="flex-shrink w-30% h-12 px-3 mb-3 transition duration-200 bg-white border-gray-300 rounded-xl shadow-sm appearance-none md:mr-2 md:mb-0"
+                                 placeholder="Email Address" required="">
+                                 <!-- Subscribe button -->
+                                <button class="flex-wrap items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded-lg shadow-md bg-red-600 hover:bg-red-800">
+                                    Subscribe
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Quick links -->
+                        <div>
+                            <p class="font-semibold tracking-wide text-gray-800">Quick Link</p>
+                            <div>
+                                <ul class="mt-2 space-2-y">
+                                    <li>
+                                        <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-blue-400">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-blue-400">Who We Are</a>
+                                    </li>
+                                    <li>
+                                        <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-blue-400">Our Philosophy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                         <!-- Technologies -->
+                        <div>
+                            <p class="font-semibold tracking-wide text-gray-800">Technologies</p>
+                            <div>
+                                <ul class="mt-2 space-2-y">
+                                    <li>
+                                        <a href="#" class="text-gray-600 transition-colors duration-300 hover:text-blue-400">HTML</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-gray-600 transition-colors duration-300 hover:text-blue-400">CSS</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-gray-600 transition-colors duration-300 hover:text-blue-400">JavaScript</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Divider -->
+                    <hr class="my-6 border-[#d86943]">
+                    
+                    <!-- Logo -->
+                    <div class="flex">
+                        <a href="#">
+                            <img class="w-auto h-7" src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="">
+                        </a>
+                    </div>
+                    <!-- Footer content -->
+                    <div class="flex flex-col justify-between pt-5 pb-10 border-t border-gray-800 sm:flex-row">
+                         <!-- Copyright -->
+                        <p class="text-sm text-gray-500">
+                            &copy; Copyright 2024 Mulalo Mab. All rights reserved.
+                        </p>
+                        <!-- Social media icons -->
+                        <div class="flex items-center mt-4 space-x-4 sm:mt-0">
+                            <a href="/" class="text-gray-500 trans duration-300 hover:text-teal-accent-400">
+                                <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
+                                    <path
+                                       d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0895,23.105,0,220z"
+                                    ></path>
+                                </svg>
+
+                            </a>
+
+                        </div>
+                    </div>
+    </footer>
+
+</body>
+</html>
